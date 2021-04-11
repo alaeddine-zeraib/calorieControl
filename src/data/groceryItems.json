@@ -1,0 +1,58 @@
+[
+	{
+		"id": 1,
+		"name": "Rice",
+		"cost": 10,
+		"calories": 204,
+		"weight": 158
+	},
+	{
+		"id": 2,
+		"name": "Cheese",
+		"cost": 20,
+		"calories": 110,
+		"weight": 28
+	},
+	{
+		"id": 3,
+		"name": "Red meats",
+		"cost": 10,
+		"calories": 456,
+		"weight": 170
+	},
+	{
+		"id": 4,
+		"name": "Salmon",
+		"cost": 30,
+		"calories": 250,
+		"weight": 170
+	},
+    {
+		"id": 7,
+		"name": "Bread",
+		"cost": 2,
+		"calories": 160,
+		"weight": 56
+	},
+    {
+		"id": 8,
+		"name": "Avocados",
+		"cost": 20,
+		"calories": 322,
+		"weight": 29
+	},
+    {
+		"id": 9,
+		"name": "Dark chocolat",
+		"cost": 20,
+		"calories": 600,
+		"weight": 100
+	},
+    {
+		"id": 10,
+		"name": "Whole eggs",
+		"cost": 20,
+		"calories": 74,
+		"weight": 50
+	}
+]

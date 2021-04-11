@@ -1,0 +1,57 @@
+.app {
+  text-align: center;
+  background-color: slategrey;
+}
+
+.App-header {
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.header {
+  background-image: url("./caloriecontrol1.jpeg");
+  background-color: silver;
+  background-size: cover;
+  height: 300px;
+  width: 1080px;
+  padding-top: -10%;
+  color: white;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: solid;
+  text-shadow: 2px 2px #ff0000;
+}
+
+.sous-header {
+  text-align: center;
+	width: 1080px;
+}
+
+.calorie-control {
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.grocery-bg {
+  background-color: #ECECEC;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.shopping-bag-bg {
+  background-color: #E4F1FE;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.stats-bg {
+  background-color: #F2F1EF;
+  margin-left: 10px;
+  margin-right: 10px;
+}
