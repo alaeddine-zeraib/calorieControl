@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
-
 import { connect } from 'react-redux';
-
 import { removeFoodById, addCalorieById } from '../actions';
 
-class ShoppingBag extends Component {
+class FoodBag extends Component {
 
-	displayShoppingBag() {
-		if(this.props.shoppingBag.length > 0) {
+	displayFoodBag() {
+		if(this.props.foodBag.length > 0) {
 			return (
 				<ul className="list-group">
-					{this.props.shoppingBag.map((item) => {
+					{this.props.foodBag.map((item) => {
 						return <li key={item.id} 
 										className="list-group-item"
 										onClick={()=>{
@@ -39,7 +37,7 @@ class ShoppingBag extends Component {
 		return (
 			<div className="col-md-4 shopping-bag-bg">
 				<h2 className="text-center">Food Bag</h2>
-				{this.displayShoppingBag()}
+				{this.displayFoodBag()}
 			</div>
 		)
 	}
@@ -47,11 +45,11 @@ class ShoppingBag extends Component {
 
 function mapStateToProps(state) {
 	return {
-		shoppingBag: state.shoppingBag
+		foodBag: state.foodBag
 	}
 }
 
-export default connect(mapStateToProps, { removeFoodById, addCalorieById })(ShoppingBag);
+export default connect(mapStateToProps, { removeFoodById, addCalorieById })(FoodBag);
 
 
 

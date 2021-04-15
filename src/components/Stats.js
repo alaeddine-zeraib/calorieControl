@@ -5,12 +5,12 @@ import { connect } from 'react-redux';
 class Stats extends Component {
 	calories() {
 		let totalCalories = 0;
-		this.props.shoppingBag.forEach(item => totalCalories += item.calories);
+		this.props.foodBag.forEach(item => totalCalories += item.calories);
 		return totalCalories;
 	}
 	weight() {
 		let totalWeight = 0;
-		this.props.shoppingBag.forEach(item => totalWeight += item.weight);
+		this.props.foodBag.forEach(item => totalWeight += item.weight);
 		return totalWeight;
 	}
 	render() {
@@ -28,7 +28,7 @@ class Stats extends Component {
 
 function mapStateToProps(state) {
 	return {
-		shoppingBag: state.shoppingBag
+		foodBag: state.foodBag
 	}
 }
 

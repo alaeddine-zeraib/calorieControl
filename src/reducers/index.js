@@ -1,11 +1,11 @@
 import food from './FoodReducer';
-import shoppingBag from './shoppingBag_reducer';
+import foodBag from './foodBagReducer';
 import calorie from './CalorieReducer';
 import { combineReducers } from 'redux';
 
 const rootReducer = combineReducers({
 	food,
-	shoppingBag,
+	foodBag,
 	calorie
 });
 

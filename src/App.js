@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Food from './components/Food';
-import ShoppingBag from './components/ShoppingBag';
+import FoodBag from './components/FoodBag';
 import Stats from './components/Stats';
 import Calories from './components/Calories';
 
@@ -17,7 +17,7 @@ class App extends Component {
         <Calories />
         <div className="row">
           <Food />
-          <ShoppingBag />
+          <FoodBag />
           <Stats />
         </div>
       </div>
