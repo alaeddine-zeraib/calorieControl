@@ -1,4 +1,4 @@
-import { ADD_FOOD, REMOVE_FOOD } from '../actions';
+import { ADD_FOOD, REMOVE_FOOD } from '../actions/FoodTypes';
 import { addToBag } from './helper';
 
 export default function foodBag(state=[], action) {

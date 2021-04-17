@@ -1,7 +1,5 @@
-export const ADD_FOOD = "ADD_FOOD";
-export const REMOVE_FOOD = "REMOVE_FOOD";
-export const ADD_CALORIE = "ADD_CALORIE";
-export const REMOVE_CALORIE = "REMOVE_CALORIE";
+import { ADD_FOOD, REMOVE_FOOD } from "./FoodTypes";
+import { ADD_CALORIE, REMOVE_CALORIE } from "./CalorieTypes";
 
 export function addFoodById(id) {
 	const action = {
