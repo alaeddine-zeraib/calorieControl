@@ -18,8 +18,8 @@ class Stats extends Component {
 			<div className="col-md-3 stats-bg">
 				<h2 className="text-center">Stats Items</h2>
 				<ul className="list-group">
-					<li className="list-group-item">Weight - {this.weight()} g</li>
-				  	<li className="list-group-item">Calories - {this.calories()} cal</li>
+					<li className="list-group-item">Weight - <span className="badge bg-primary">{this.weight()} g</span></li>
+				  	<li className="list-group-item">Calories - <span className="badge bg-warning text-dark">{this.calories()} cal</span></li>
 				</ul>
 			</div>
 		)

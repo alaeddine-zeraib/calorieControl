@@ -17,9 +17,9 @@ class Food extends Component {
 											}
 										}
 										>
-							<b>{item.name}</b> - 
-							<span className="label label-primary"> {item.weight} g</span> - 
-							<span className="label label-warning"> {item.calories} cal</span>
+							<span className="badge bg-info text-dark"><b>{item.name}</b></span> - 
+							<span className="badge bg-primary"> {item.weight} g</span> - 
+							<span className="badge bg-warning text-dark"> {item.calories} cal</span>
 							
 						</li>
 					})}

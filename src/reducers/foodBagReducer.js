@@ -11,5 +11,5 @@ export default function foodBag(state=[], action) {
 			return foodBag;
 		default: 
 			return state;
-	}
+	}  
 }

@@ -1,7 +1,7 @@
 import { ADD_CALORIE, REMOVE_CALORIE } from '../actions/CalorieTypes';
 import { addToBag } from './helper';
 
-export default function calorie(state=2400, action) {
+export default function calorie(state=1400, action) {
 
 	switch(action.type) {
 		case ADD_CALORIE:

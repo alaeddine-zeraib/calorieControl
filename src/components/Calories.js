@@ -8,17 +8,15 @@ class Calories extends Component {
 			<div className="sous-header">
         		<h2 style={{paddingTop: '25px'}}>
 					You have 
-					<span className="label label-success"> 
-						<b> {this.props.calorie} calories </b>
-					</span> 
-					to consume Today in Food!
+					<span className="badge rounded-pill bg-success"><b>{this.props.calorie} calories</b></span> 
+					 to consume Today in Food!
 				</h2>
 				<br/>
 			</div>
 		);
 	}
 
-}
+} 
 
 function mapStateToProps(state) {
 	return {
