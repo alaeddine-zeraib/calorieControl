@@ -1,5 +1,5 @@
 import { ADD_FOOD, REMOVE_FOOD } from '../actions/FoodTypes';
-import groceryItemsList from '../data/groceryItems.json';
+import groceryItemsList from '../data/foodItems.json';
 import { addToBag } from './helper';
 
 export default function food(state = groceryItemsList, action) {

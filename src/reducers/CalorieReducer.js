@@ -12,7 +12,6 @@ export default function calorie(state=1400, action) {
 			item = addToBag(action.id);
 			calorie = state-item.calories;
 			return calorie;
-			// return state;
 		default:
 			return state;
 	}
