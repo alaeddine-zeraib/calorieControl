@@ -1,6 +1,6 @@
-import groceryItemsList from '../data/foodItems.json';
+import foodItemsList from '../data/foodItems.json';
 
 export function addToBag(id) {
-	let item = groceryItemsList.find((item)=> item.id === id);
+	let item = foodItemsList.find((item)=> item.id === id);
 	return item;
 }

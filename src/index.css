@@ -28,29 +28,25 @@
 	width: 1080px;
 }
 
-.calorie-control {
-
-}
-
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 
-.grocery-bg {
+.food-bg {
   background-color: #ECECEC;
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.shopping-bag-bg {
+.food-bag-bg {
   background-color: #E4F1FE;
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.stats-bg {
+.food-stats-bg {
   background-color: #F2F1EF;
   margin-left: 10px;
   margin-right: 10px;

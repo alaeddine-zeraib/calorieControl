@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Food from './components/Food';
 import FoodBag from './components/FoodBag';
 import Stats from './components/Stats';
 import Calories from './components/Calories';
 
-class App extends Component {
-  render() {
+const App = () => {
     return (
       <div className="container">
           <div className="header">
@@ -22,7 +21,6 @@ class App extends Component {
         </div>
       </div>
     );
-  }
 }
 
 export default App;

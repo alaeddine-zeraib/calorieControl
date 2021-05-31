@@ -5,7 +5,7 @@ import { addFoodById, removeCalorieById } from '../actions';
 class Food extends Component {
 	render() {
 		return (
-			<div className="col-md-4 grocery-bg">
+			<div className="col-md-4 food-bg">
 				<h2 className="text-center">Food Items</h2>
 				<ul className="list-group">
 					{this.props.food.map((item) => {

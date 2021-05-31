@@ -35,7 +35,7 @@ class FoodBag extends Component {
 
 	render() {
 		return (
-			<div className="col-md-4 shopping-bag-bg">
+			<div className="col-md-4 food-bag-bg">
 				<h2 className="text-center">Food Bag</h2>
 				{this.displayFoodBag()}
 			</div>
