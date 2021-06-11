@@ -2,6 +2,7 @@
   height: 150px;
   padding: 20px;
   color: white;
+  width: auto;
 }
 
 .header {
@@ -9,7 +10,7 @@
   background-color: silver;
   background-size: cover;
   height: 300px;
-  width: 1080px;
+  width: auto;
   padding-top: -10%;
   color: white;
   padding: 20px;
@@ -20,7 +21,7 @@
 
 .sous-header {
   text-align: center;
-	width: 1080px;
+	width: auto;
 }
 
 body {
@@ -31,20 +32,20 @@ body {
 
 .food-bg {
   background-color: #ECECEC;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 14px;
   height: 500px;
 }
 
 .food-bag-bg {
   background-color: #E4F1FE;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 14px;
+  margin-right: 14px;
 }
 
 .food-stats-bg {
   background-color: #F2F1EF;
-  margin-left: 10px;
+  margin-left: 13px;
   margin-right: 10px;
 }
 
