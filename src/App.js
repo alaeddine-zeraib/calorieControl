@@ -3,6 +3,7 @@ import Food from './components/Food';
 import FoodBag from './components/FoodBag';
 import Stats from './components/Stats';
 import Calories from './components/Calories';
+import Footer from './components/Footer';
 
 const App = () => {
     return (
@@ -19,6 +20,7 @@ const App = () => {
           <FoodBag />
           <Stats />
         </div>
+        <Footer />
       </div>
     );
 }
