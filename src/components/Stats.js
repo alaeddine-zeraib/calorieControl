@@ -18,17 +18,15 @@ class Stats extends Component {
 				<h2 className="text-center">Stats Items</h2>
 				<ul className="list-group">
 					<li className="list-group-item">Weight - <span className="badge bg-primary">{this.weight()} g</span></li>
-				  	<li className="list-group-item">Calories - <span className="badge bg-warning text-dark">{this.calories()} cal</span></li>
+					<li className="list-group-item">Calories - <span className="badge bg-warning text-dark">{this.calories()} cal</span></li>
 				</ul>
 			</div>
 		)
 	}
 }
 
-function mapStateToProps(state) {
-	return {
-		foodBag: state.foodBag
-	}
+function mapStateToProps({ foodBag }) {
+	return { foodBag }
 }
 
 export default connect(mapStateToProps, null)(Stats);

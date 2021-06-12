@@ -5,20 +5,20 @@ import { removeFoodById, addCalorieById } from '../actions';
 class FoodBag extends Component {
 
 	displayFoodBag() {
-		if(this.props.foodBag.length > 0) {
+		if (this.props.foodBag.length > 0) {
 			return (
 				<ul className="list-group">
 					{this.props.foodBag.map((item) => {
-						return <li key={item.id} 
-										className="list-group-item"
-										onClick={()=>{
-											this.props.removeFoodById(item.id);
-											this.props.addCalorieById(item.id);
-											}
-										}
-										>
-							<span className="badge bg-info text-dark"><b>{item.name}</b></span> - 
-							<span className="badge bg-primary"> {item.weight} g</span> - 
+						return <li key={item.id}
+							className="list-group-item"
+							onClick={() => {
+								this.props.removeFoodById(item.id);
+								this.props.addCalorieById(item.id);
+							}
+							}
+						>
+							<span className="badge bg-info text-dark"><b>{item.name}</b></span> -
+							<span className="badge bg-primary"> {item.weight} g</span> -
 							<span className="badge bg-warning text-dark"> {item.calories} cal</span>
 						</li>
 					})}

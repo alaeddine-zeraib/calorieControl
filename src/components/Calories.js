@@ -15,9 +15,7 @@ const Calories = (props) => {
 }
 
 function mapStateToProps({ calorie }) {
-	return {
-		calorie
-	}
+	return { calorie }
 }
 
 export default connect(mapStateToProps, null)(Calories);
