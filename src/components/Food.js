@@ -27,10 +27,8 @@ const Food = (props) => {
 	)
 }
 
-function mapStateToProps(state) {
-	return {
-		food: state.food
-	}
+function mapStateToProps({food}) {
+	return {food}
 }
 
 export default connect(mapStateToProps, { addFoodById, removeCalorieById })(Food);
